@@ -11,8 +11,8 @@
             "description":"Машины любимые фильмы"
         },
         {
-            "slug":"Weather",
-            "title":"weather",
+            "slug":"weather",
+            "title":"Weather Forcast for Today",
             "description":"Погода на сегодня"
         }
     ]
