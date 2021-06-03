@@ -31,3 +31,12 @@
     background-color: antiquewhite;
     border-radius: 0.75em;
   }
+
+ .postContent {
+    font-size: 1.25rem;
+    text-align:justify;
+
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0px 85px 120px;
+ }
