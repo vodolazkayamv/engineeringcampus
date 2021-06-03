@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router'
 import Article from '../../components/article'
+import PostTitle from '../../components/post-title'
 
 import content from '../posts.json'
 
@@ -7,7 +8,7 @@ const Post = ( post ) => {
 
   return (
     <Article>
-      <h1>{post.title}</h1>
+      <PostTitle post={post}> </PostTitle>
     </Article>
   )
 }

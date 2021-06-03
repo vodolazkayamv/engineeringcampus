@@ -3,7 +3,8 @@
         {
             "slug":"whoami",
             "title":"Masha Vodolazkaya",
-            "description":"Страничка про Машу"
+            "description":"Страничка про Машу",
+            "author": "Masha"
         },
         {
             "slug":"movies",

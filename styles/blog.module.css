@@ -3,6 +3,31 @@
   line-height: 1.5;
 }
 
-.article > h1 {
+.article  h1 {
     font-size: 4rem;
 }
+
+.postInfo {
+    align-items: center;
+    
+    min-height: 250px;
+    padding-bottom: 5%;
+    
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+  }
+
+.author {
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    
+    margin-left: 1em;
+    margin-right: 1em;
+  
+    background-color: antiquewhite;
+    border-radius: 0.75em;
+  }
