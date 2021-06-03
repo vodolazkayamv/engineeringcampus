@@ -1,11 +1,14 @@
 import { useRouter } from 'next/router'
+import Article from '../../components/article'
 
 import content from '../posts.json'
 
 const Post = ( post ) => {
 
   return (
-    <h1>{post.title}</h1>
+    <Article>
+      <h1>{post.title}</h1>
+    </Article>
   )
 }
 
