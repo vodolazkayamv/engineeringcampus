@@ -1,0 +1,19 @@
+{
+    "posts": [
+        {
+            "slug":"whoami",
+            "title":"Masha Vodolazkaya",
+            "description":"Страничка про Машу"
+        },
+        {
+            "slug":"movies",
+            "title":"My Favourite Movies",
+            "description":"Машины любимые фильмы"
+        },
+        {
+            "slug":"Weather",
+            "title":"weather",
+            "description":"Погода на сегодня"
+        }
+    ]
+}
