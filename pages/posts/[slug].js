@@ -1,8 +1,5 @@
 import { useRouter } from 'next/router'
 
-
-
-
 import content from '../posts.json'
 
 const Post = ( post ) => {
