@@ -2,7 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+import content from './posts.json'
+
+const Home = ( props ) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -27,6 +29,16 @@ export default function Home() {
             <p>Страничка "об этом сайте": кто его сделал и зачем.</p>
           </a>
 
+          { 
+           props.allPosts.map(function(post) {
+              return (
+                <a href={"/posts/" + post.slug } className={styles.card}>
+                  <h2>{post.title} &rarr;</h2>
+                  <p>{post.description}</p>
+                </a>
+                )
+            })
+          }
           
         </div>
       </main>
@@ -46,3 +58,12 @@ export default function Home() {
     </div>
   )
 }
+
+export async function getStaticProps() {
+
+  const allPosts = content.posts
+  // Pass post data to the page via props
+  return { props: {allPosts} }
+}
+
+export default Home
